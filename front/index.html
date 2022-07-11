@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Sign In and Sign Up</title>
+        <!-- GoogleFont  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <!-- File Css -->
+        <link rel="stylesheet" href="./css/all.min.css"/>
+        <link rel="stylesheet" href="./css/index.css"/>
+    </head>
+    <body>
+        <main>
+            <section class="container" id="container">
+                <section class="forms-container">
+                    <div class="signin-signup sign-form hidden-form">
+                        <!-- Start Form Area-->
+                        <form action="#" class="form">
+                            <header>
+                                <figure class="mobile-design-query user">
+                                    <img src="./img/user.png" alt="user"/>
+                                </figure>
+                                <h2 class="title">Sign In</h2>
+                            </header>
+                            <div class="input-field">
+                                <p class="icons">
+                                    <i class="fas fa-user"></i>
+                                </p>
+                                <input type="text" placeholder="Username" class="username"/>
+                            </div>
+                            <div class="input-field">
+                                <p class="icons">
+                                    <i class="fas fa-lock"></i>
+                                </p>
+                                <input type="password" placeholder="Password" class="password"/>
+                            </div>
+                            <div class="buttons-area">
+                                <input type="submit" class="btn"  value="Login" />
+                            </div>
+                            <div class="mobile-design-query newAccount">
+                                <p class="new-account newAccount">
+                                    Create a new Account?
+                                </p> 
+                                <p class="new-account-already-have" id="SignUp_form">Here</p>
+                                
+                            </div>
+                            <p class="social-text">Or Sign in with Social Platform</p>
+                            <section class="social-media">
+                                <a href="#" class="social-icons">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="social-icons">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </section>
+                        </form>
+                        <!-- End Form Area-->
+                    </div>
+                    
+                    <div class="signup-signup sign-form ">
+                        <!-- Start Form Area-->
+                        <form action="#" class="form">
+                            <header>
+                                <figure class="mobile-design-query user">
+                                    <img src="./img/user.png" alt="user"/>
+                                </figure>
+                                <h2 class="title">Sign Up</h2>
+                            </header>
+                            <div class="input-field">
+                                <p class="icons">
+                                    <i class="fas fa-user"></i>
+                                </p>
+                                <input type="text" placeholder="Username" class="username"/>
+                            </div>
+                            <div class="input-field">
+                                <p class="icons">
+                                    <i class="fas fa-envelope"></i>
+                                </p>
+                                <input type="email" placeholder="Email" class="username"/>
+                            </div>
+                            <div class="input-field">
+                                <p class="icons">
+                                    <i class="fas fa-lock"></i>
+                                </p>
+                                <input type="password" placeholder="Password" class="password"/>
+                            </div>
+                            <div class="buttons-area">
+                                <input type="submit" class="btn"  value="Sign Up" />
+                            </div>
+                            <div class="mobile-design-query newAccount">
+                                <p class="new-account ">
+                                    Have you Account Already ?
+                                </p>
+                                <p class="new-account-already-have" id="SignIn-form">Click</p>
+                            </div>
+                            <p class="social-text">Or Sign Up with Social Platform</p>
+                            <section class="social-media">
+                                <a href="#" class="social-icons">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="social-icons">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </section>
+                        </form>
+                        <!-- End Form Area-->
+                    </div>
+                </section>
+                <aside class="panels">
+                    <!-- Panel Left Media Query(992px)-->
+                    <section class="panel panel-left">
+                        <header class="content">
+                            <h3>New Here ?</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                  Excepteur sint occaecat cupidatat non proident, 
+                                 sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <button id="signup-button" class="btn transparent">Sign Up</button>
+                        </header>
+                        <figure>
+                            <img src="img/logo.png" alt="logo" class="image"/>
+                            <figcaption></figcaption>
+                        </figure>
+                    </section>
+                    <!-- Panel Right -->
+                    <section class="panel panel-right">
+                        <header class="content">
+                            <h3>One of Us.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                  Excepteur sint occaecat cupidatat non proident, 
+                                 sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <button class="btn transparent" id="signin-button">Sign In</button>
+                        </header>
+                        <figure>
+                            <img src="img/images.png" alt="logo" class="image"/>
+                            <figcaption></figcaption>
+                        </figure>
+                    </section>
+                </aside>
+                <!-- Media Query 992px -->
+            </section>
+        </main>
+        <script src="./js/all.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
