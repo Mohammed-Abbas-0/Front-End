@@ -8,7 +8,6 @@ In the project, we will be creating a Complete Login and Register page it wil be
 
 ## Requirements
 
-- Basic ReactJs knowledge
 - Basic HTML, CSS knowledge
 - Js
 
